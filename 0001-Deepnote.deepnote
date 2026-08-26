@@ -2,7 +2,7 @@ environment: {}
 execution: {}
 metadata:
   createdAt: 2026-08-24T23:23:36.664Z
-  modifiedAt: 2026-08-26T14:44:45.682Z
+  modifiedAt: 2026-08-26T14:53:27.495Z
 project:
   id: 278f5484-02d4-449d-99ec-d114e2c44191
   integrations:
@@ -19,18 +19,9 @@ project:
           content: TP01 - Deepnote Soria Demian
           metadata:
             formattedRanges: []
-        - id: b166de9911a649d9b0270471ff8107fa
-          blockGroup: a803b8600a6c445d912f4fe4fcd95215
-          sortingKey: "000001"
-          type: text-cell-p
-          content: "Cargar un archivo csv o xlsx \r
-
-            Crear una carpeta y renombrarla como img "
-          metadata:
-            formattedRanges: []
         - id: ff27ebfe26e246768e0763e50cdeb069
           blockGroup: 105f462894694565b71c16849a709599
-          sortingKey: "000002"
+          sortingKey: "000001"
           type: text-cell-p
           content: "Soy Soria Demian profesor de fisica y estudiante de la tecnicatura de ciencia de datos e ia.\r
 
@@ -41,7 +32,7 @@ project:
             formattedRanges: []
         - id: 47f66f3e6da64990b9a165cb30b1b1a5
           blockGroup: a60810f0f8a34efd81b8e507b07802d1
-          sortingKey: "000003"
+          sortingKey: "000002"
           type: code
           content: print ("hace un tiempo no coodeo con phyton,el resumen de la clase fue muy bueno para refrescar la memoria y
             volver a empezar")
