@@ -1,0 +1,124 @@
+environment: {}
+execution: {}
+metadata:
+  createdAt: 2026-08-24T23:23:36.664Z
+  modifiedAt: 2026-08-26T14:44:45.680Z
+project:
+  id: 278f5484-02d4-449d-99ec-d114e2c44191
+  integrations:
+    - id: 2adb0d0c-29bd-422c-a9cb-4c655c2800b0
+      name: 2026_DSIA
+      type: github_package
+  name: " 2026 DSIA"
+  notebooks:
+    - blocks:
+        - id: 0fa96d0601cb40fd8f6bb0179f360c13
+          blockGroup: a34cc69d60aa44c1a3b70c0770b766b0
+          sortingKey: "000000"
+          type: text-cell-h1
+          content: TP02 – Introducción a Python
+          metadata:
+            formattedRanges: []
+        - id: aefbe08f94094e6fad62d5e1bf528b00
+          blockGroup: 812199b1b125471fbdab6bf4b6e5d157
+          sortingKey: "000001"
+          type: text-cell-p
+          content: Alumno:Soria Demian
+          metadata:
+            formattedRanges: []
+        - id: eda434dec49840d68ff1ceea71c30ad2
+          blockGroup: 64e910b77f85474daa770bb33369fa05
+          sortingKey: "000002"
+          type: text-cell-h1
+          content: Ejercicio 1 – Variables y operaciones
+          metadata:
+            formattedRanges: []
+        - id: 1e7cd650691543d69eba56fe03cf725e
+          blockGroup: b69e291ca4584e9eb70bb1bcdc1eff16
+          sortingKey: "000003"
+          type: code
+          content: >-
+            nombre="demian"
+
+            edad=30
+
+            ciudad="monte grande"
+
+            print(f"hola, mi nombre es {nombre},tengo {edad} años y vivo en {ciudad}.")
+
+            a=10
+
+            b=5
+
+            suma=a+b
+
+            resta=a-b
+
+            multiplicacion=a*b
+
+            division=a/b
+
+            print(f"la suma es {suma}")
+
+            print(f"la resta es {resta}")
+
+            print(f"la multiplicacion es {multiplicacion}")
+
+            print(f"la division es {division}")
+          metadata: {}
+        - id: ae4a86033ab24bf59061078b6ae53416
+          blockGroup: 4055ea2d469d48a9ac3f5e2493df55ce
+          sortingKey: "000004"
+          type: text-cell-h1
+          content: "Ejercicio 2 – Condicionales\r"
+          metadata:
+            formattedRanges: []
+        - id: 6ddd36f4c987463cbb885da082e226bc
+          blockGroup: cfbad7678697479b989fb4436239bd2a
+          sortingKey: "000005"
+          type: code
+          content: >-
+            print("Ingrese su edad:")
+
+            edad = int(input())
+
+            if edad >= 18:
+                print("Es mayor de edad.")
+            else:
+                print("Es menor de edad.")
+          metadata: {}
+        - id: d0cfb15cfd204e79a24651837f523fbd
+          blockGroup: 85935c0d8bfe433d979a9fdb3b85cb1e
+          sortingKey: "000006"
+          type: text-cell-h1
+          content: Ejercicio 3 – Listas y bucles
+          metadata:
+            formattedRanges: []
+        - id: 252a04757fea4c649314d67b525051dd
+          blockGroup: 732fde03b1904c46ab31998a455ccabc
+          sortingKey: "000007"
+          type: code
+          content: >-
+            print ("ingrese 5 numeros enteros:")
+
+            lista=[]
+
+            suma=0
+
+            for i in range (5):
+                lista.append(int(input("ingrese un numero: ")))
+                suma= suma + lista[i]
+            print ("la lista es: ",lista)
+
+            print ("la suma de los numeros es: ",suma)
+
+            promedio= suma/5
+
+            print ("el promedio de los numeros es: ",promedio)
+          metadata: {}
+      executionMode: block
+      id: 915e65efc9ec47a7bd395ac26dc3ec59
+      isModule: false
+      name: 0002 Python Repaso
+      workingDirectory: /
+version: 1.0.0

@@ -1,0 +1,54 @@
+environment: {}
+execution: {}
+metadata:
+  createdAt: 2026-08-24T23:23:36.664Z
+  modifiedAt: 2026-08-26T14:44:45.682Z
+project:
+  id: 278f5484-02d4-449d-99ec-d114e2c44191
+  integrations:
+    - id: 2adb0d0c-29bd-422c-a9cb-4c655c2800b0
+      name: 2026_DSIA
+      type: github_package
+  name: " 2026 DSIA"
+  notebooks:
+    - blocks:
+        - id: 5dbef7ba9ca84a67a25af1fa1cc72d6e
+          blockGroup: 3e17a8aa48224575a96b8e6ff71a6dbf
+          sortingKey: "000000"
+          type: text-cell-h1
+          content: TP01 - Deepnote Soria Demian
+          metadata:
+            formattedRanges: []
+        - id: b166de9911a649d9b0270471ff8107fa
+          blockGroup: a803b8600a6c445d912f4fe4fcd95215
+          sortingKey: "000001"
+          type: text-cell-p
+          content: "Cargar un archivo csv o xlsx \r
+
+            Crear una carpeta y renombrarla como img "
+          metadata:
+            formattedRanges: []
+        - id: ff27ebfe26e246768e0763e50cdeb069
+          blockGroup: 105f462894694565b71c16849a709599
+          sortingKey: "000002"
+          type: text-cell-p
+          content: "Soy Soria Demian profesor de fisica y estudiante de la tecnicatura de ciencia de datos e ia.\r
+
+            Mis espectativas para la materia son ampliar mis conocimientos en codigo, ia y desarrollo; tambien trabajar
+            en equipo para conocer las diferentes perspectivas a la hora de encarar el desarrollo de
+            trabajos,ideas,codigo,etc."
+          metadata:
+            formattedRanges: []
+        - id: 47f66f3e6da64990b9a165cb30b1b1a5
+          blockGroup: a60810f0f8a34efd81b8e507b07802d1
+          sortingKey: "000003"
+          type: code
+          content: print ("hace un tiempo no coodeo con phyton,el resumen de la clase fue muy bueno para refrescar la memoria y
+            volver a empezar")
+          metadata: {}
+      executionMode: block
+      id: 7bae9eef343042b7bc151256140bd7a3
+      isModule: false
+      name: 0001 Deepnote
+      workingDirectory: /
+version: 1.0.0
